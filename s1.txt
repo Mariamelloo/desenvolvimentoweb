@@ -1,0 +1,8 @@
+# Python: pode ser usado para back-end
+refêrencia: https://www.python.org/
+# Github: comitar arquivos no repositório
+refêrencia: https://github.com/
+# VS Code: vou usar id para ler arquivos
+refêrencia: https://code.visualstudio.com/
+# Google: pode ser usado para ler aplicações
+refêrencia:https://www.google.com.br/
