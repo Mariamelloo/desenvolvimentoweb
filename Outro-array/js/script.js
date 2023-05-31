@@ -45,7 +45,12 @@ const  manipula_evento = ( evento ) => {
     sessionStorage.setItem('nome', imagem_clicada.dataset.nome);
     sessionStorage.setItem('descricao', imagem_clicada.dataset.descricao);
     sessionStorage.setItem('caminho', imagem_clicada.src);
-
+    //localStorage
+    localStorage.setItem('valor', imagem_clicada.dataset.valor);
+    localStorage.setItem('nome', imagem_clicada.dataset.nome);
+    localStorage.setItem('descricao', imagem_clicada.dataset.descricao);
+    localStorage.setItem('caminho', imagem_clicada.src);
+    
     cartao(imagem_clicada);
 }
 
