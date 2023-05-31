@@ -9,4 +9,12 @@ const acha_cookie = (chave) => {
     return procurado.split('=')[1];
 }
 
-elemento.innerHTML = acha_cookie('nome');
+// usando filter (mais complicado)
+let resposta_array = minhas_imagens.filter((elemento) => elemento.valor == acha_cookie('valor'));
+let descricao = resposta_array[0].descricao
+
+resposta_array = minhas_imagens.find(
+    (elemento) => elemento.valor == acha_cookie('valor'));
+descricao = resposta_array.descricao;
+
+elemento.innerHTML = descricao;
